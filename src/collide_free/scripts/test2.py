@@ -1,3 +1,6 @@
 import numpy as np
-a = np.matrix([[0,0,0,1],[0,0,0,1],[0,0,0,1],[0,0,0,1]])
-print(a[:,3])
+a = []
+a.append(float(input("input desire position\n")))
+a.append(float(input("input desire position\n")))
+a.append(float(input("input desire position\n")))
+print(a[0]+a[1])
