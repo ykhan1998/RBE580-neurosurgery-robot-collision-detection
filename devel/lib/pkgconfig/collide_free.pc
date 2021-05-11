@@ -1,0 +1,8 @@
+prefix=/home/kehan/neurobot_ws/devel
+
+Name: collide_free
+Description: Description of collide_free
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

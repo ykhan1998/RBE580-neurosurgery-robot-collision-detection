@@ -1,0 +1,8 @@
+prefix=/home/kehan/neurobot_ws/install
+
+Name: NeuroKinematics
+Description: Description of NeuroKinematics
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

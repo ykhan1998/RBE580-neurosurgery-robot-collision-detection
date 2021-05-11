@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kehan/neurobot_ws/src/NeuroKinematics/src/Kinematics.hpp
+
+/home/kehan/neurobot_ws/src/NeuroKinematics/src/NeuroKinematics.cpp
+NeuroKinematics.hpp
+/home/kehan/neurobot_ws/src/NeuroKinematics/src/NeuroKinematics.hpp
+
+/home/kehan/neurobot_ws/src/NeuroKinematics/src/NeuroKinematics.hpp
+math.h
+-
+string
+-
+iostream
+-
+stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+Kinematics.hpp
+/home/kehan/neurobot_ws/src/NeuroKinematics/src/Kinematics.hpp
+eigen3/Eigen/Dense
+-
+

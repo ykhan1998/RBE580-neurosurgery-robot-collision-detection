@@ -1,0 +1,2 @@
+collide_free
+-DCATKIN_DEVEL_PREFIX=/home/kehan/neurobot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kehan/neurobot_ws/install -G Unix Makefiles

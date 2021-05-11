@@ -1,0 +1,1893 @@
+- git:
+    local-name: abb_robot_driver_interfaces
+    uri: https://github.com/ros-industrial/abb_robot_driver_interfaces.git
+    version: master
+- git:
+    local-name: ackermann_msgs
+    uri: https://github.com/ros-drivers/ackermann_msgs.git
+    version: master
+- git:
+    local-name: actionlib
+    uri: https://github.com/ros/actionlib.git
+    version: noetic-devel
+- git:
+    local-name: agni_tf_tools
+    uri: https://github.com/ubi-agni/agni_tf_tools.git
+    version: master
+- git:
+    local-name: ainstein_radar
+    uri: https://github.com/AinsteinAI/ainstein_radar.git
+    version: master
+- git:
+    local-name: angles
+    uri: https://github.com/ros/angles.git
+    version: master
+- git:
+    local-name: app_manager
+    uri: https://github.com/pr2/app_manager.git
+    version: kinetic-devel
+- git:
+    local-name: apriltag
+    uri: https://github.com/aprilrobotics/apriltag.git
+    version: master
+- git:
+    local-name: apriltag_ros
+    uri: https://github.com/AprilRobotics/apriltag_ros.git
+    version: master
+- git:
+    local-name: arbotix
+    uri: https://github.com/vanadiumlabs/arbotix_ros.git
+    version: noetic-devel
+- git:
+    local-name: astuff_sensor_msgs
+    uri: https://github.com/astuff/astuff_sensor_msgs.git
+    version: master
+- git:
+    local-name: async_comm
+    uri: https://github.com/dpkoch/async_comm.git
+    version: master
+- git:
+    local-name: async_web_server_cpp
+    uri: https://github.com/fkie/async_web_server_cpp.git
+    version: ros1-develop
+- git:
+    local-name: audibot
+    uri: https://github.com/robustify/audibot.git
+    version: noetic-devel
+- git:
+    local-name: audio_common
+    uri: https://github.com/ros-drivers/audio_common.git
+    version: master
+- git:
+    local-name: automotive_autonomy_msgs
+    uri: https://github.com/astuff/automotive_autonomy_msgs.git
+    version: master
+- git:
+    local-name: autoware_msgs
+    uri: https://github.com/autoware-ai/messages.git
+    version: master
+- git:
+    local-name: auv_msgs
+    uri: https://github.com/oceansystemslab/auv_msgs.git
+    version: noetic-devel
+- git:
+    local-name: avt_vimba_camera
+    uri: https://github.com/astuff/avt_vimba_camera.git
+    version: master
+- git:
+    local-name: backward_ros
+    uri: https://github.com/pal-robotics/backward_ros.git
+    version: kinetic-devel
+- git:
+    local-name: bagger
+    uri: https://github.com/squarerobot/bagger.git
+    version: master
+- git:
+    local-name: baldor
+    uri: https://github.com/crigroup/baldor.git
+    version: master
+- git:
+    local-name: basler_tof
+    uri: https://github.com/uos/basler_tof.git
+    version: noetic
+- git:
+    local-name: behaviortree_cpp
+    uri: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+    version: master
+- git:
+    local-name: bond_core
+    uri: https://github.com/ros/bond_core.git
+    version: kinetic-devel
+- git:
+    local-name: boost_sml
+    uri: https://github.com/PickNikRobotics/boost_sml.git
+    version: master
+- git:
+    local-name: bota_driver
+    uri: https://gitlab.com/botasys/bota_driver.git
+    version: noetic-devel
+- git:
+    local-name: capabilities
+    uri: https://github.com/osrf/capabilities.git
+    version: master
+- git:
+    local-name: carla_msgs
+    uri: https://github.com/carla-simulator/ros-carla-msgs.git
+    version: release
+- git:
+    local-name: cartesian_msgs
+    uri: https://github.com/PickNikRobotics/cartesian_msgs.git
+    version: jade-devel
+- git:
+    local-name: catch_ros
+    uri: https://github.com/AIS-Bonn/catch_ros.git
+    version: master
+- git:
+    local-name: catkin
+    uri: https://github.com/ros/catkin.git
+    version: noetic-devel
+- git:
+    local-name: catkin_virtualenv
+    uri: https://github.com/locusrobotics/catkin_virtualenv.git
+    version: master
+- git:
+    local-name: class_loader
+    uri: https://github.com/ros/class_loader.git
+    version: noetic-devel
+- git:
+    local-name: cmake_modules
+    uri: https://github.com/ros/cmake_modules.git
+    version: 0.4-devel
+- git:
+    local-name: cnpy
+    uri: https://github.com/PeterMitrano/cnpy.git
+    version: 0.0.1
+- git:
+    local-name: cob_android
+    uri: https://github.com/ipa320/cob_android.git
+    version: indigo_dev
+- git:
+    local-name: cob_calibration_data
+    uri: https://github.com/ipa320/cob_calibration_data.git
+    version: indigo_dev
+- git:
+    local-name: cob_command_tools
+    uri: https://github.com/ipa320/cob_command_tools.git
+    version: indigo_dev
+- git:
+    local-name: cob_common
+    uri: https://github.com/ipa320/cob_common.git
+    version: kinetic_dev
+- git:
+    local-name: cob_control
+    uri: https://github.com/ipa320/cob_control.git
+    version: melodic_dev
+- git:
+    local-name: cob_driver
+    uri: https://github.com/ipa320/cob_driver.git
+    version: kinetic_dev
+- git:
+    local-name: cob_environments
+    uri: https://github.com/ipa320/cob_environments.git
+    version: indigo_dev
+- git:
+    local-name: cob_extern
+    uri: https://github.com/ipa320/cob_extern.git
+    version: indigo_dev
+- git:
+    local-name: cob_gazebo_plugins
+    uri: https://github.com/ipa320/cob_gazebo_plugins.git
+    version: kinetic_dev
+- git:
+    local-name: cob_hand
+    uri: https://github.com/ipa320/cob_hand.git
+    version: indigo_dev
+- git:
+    local-name: cob_manipulation
+    uri: https://github.com/ipa320/cob_manipulation.git
+    version: kinetic_dev
+- git:
+    local-name: cob_navigation
+    uri: https://github.com/ipa320/cob_navigation.git
+    version: indigo_dev
+- git:
+    local-name: cob_perception_common
+    uri: https://github.com/ipa320/cob_perception_common.git
+    version: indigo_dev
+- git:
+    local-name: cob_robots
+    uri: https://github.com/ipa320/cob_robots.git
+    version: kinetic_dev
+- git:
+    local-name: cob_simulation
+    uri: https://github.com/ipa320/cob_simulation.git
+    version: kinetic_dev
+- git:
+    local-name: cob_substitute
+    uri: https://github.com/ipa320/cob_substitute.git
+    version: indigo_dev
+- git:
+    local-name: cob_supported_robots
+    uri: https://github.com/ipa320/cob_supported_robots.git
+    version: indigo_dev
+- git:
+    local-name: code_coverage
+    uri: https://github.com/mikeferguson/code_coverage.git
+    version: master
+- git:
+    local-name: codec_image_transport
+    uri: https://github.com/yoshito-n-students/codec_image_transport.git
+    version: noetic-devel
+- git:
+    local-name: collada_urdf
+    uri: https://github.com/ros/collada_urdf.git
+    version: kinetic-devel
+- git:
+    local-name: common_msgs
+    uri: https://github.com/ros/common_msgs.git
+    version: noetic-devel
+- git:
+    local-name: common_tutorials
+    uri: https://github.com/ros/common_tutorials.git
+    version: noetic-devel
+- git:
+    local-name: computer_status_msgs
+    uri: https://github.com/plusone-robotics/computer_status_msgs.git
+    version: master
+- git:
+    local-name: control_box_rst
+    uri: https://github.com/rst-tu-dortmund/control_box_rst.git
+    version: noetic-devel
+- git:
+    local-name: control_msgs
+    uri: https://github.com/ros-controls/control_msgs.git
+    version: kinetic-devel
+- git:
+    local-name: control_toolbox
+    uri: https://github.com/ros-controls/control_toolbox.git
+    version: melodic-devel
+- git:
+    local-name: convex_decomposition
+    uri: https://github.com/ros/convex_decomposition.git
+    version: melodic-devel
+- git:
+    local-name: core_perception
+    uri: https://github.com/nobleo/core_perception.git
+    version: points_preprocessor_release_noetic
+- git:
+    local-name: costmap_converter
+    uri: https://github.com/rst-tu-dortmund/costmap_converter.git
+    version: master
+- git:
+    local-name: criutils
+    uri: https://github.com/crigroup/criutils.git
+    version: master
+- git:
+    local-name: csm
+    uri: https://github.com/AndreaCensi/csm.git
+    version: master
+- git:
+    local-name: cv_camera
+    uri: https://github.com/OTL/cv_camera.git
+    version: master
+- git:
+    local-name: dataspeed_can
+    uri: https://bitbucket.org/dataspeedinc/dataspeed_can.git
+    version: master
+- git:
+    local-name: dataspeed_pds
+    uri: https://bitbucket.org/DataspeedInc/dataspeed_pds.git
+    version: master
+- git:
+    local-name: dataspeed_ulc_ros
+    uri: https://bitbucket.org/DataspeedInc/dataspeed_ulc_ros.git
+    version: master
+- git:
+    local-name: dbw_fca_ros
+    uri: https://bitbucket.org/DataspeedInc/dbw_fca_ros.git
+    version: master
+- git:
+    local-name: dbw_mkz_ros
+    uri: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
+    version: master
+- git:
+    local-name: dbw_polaris_ros
+    uri: https://bitbucket.org/DataspeedInc/dbw_polaris_ros.git
+    version: master
+- git:
+    local-name: ddynamic_reconfigure
+    uri: https://github.com/pal-robotics/ddynamic_reconfigure.git
+    version: kinetic-devel
+- git:
+    local-name: ddynamic_reconfigure_python
+    uri: https://github.com/pal-robotics/ddynamic_reconfigure_python.git
+    version: master
+- git:
+    local-name: diagnostics
+    uri: https://github.com/ros/diagnostics.git
+    version: noetic-devel
+- git:
+    local-name: driver_common
+    uri: https://github.com/ros-drivers/driver_common.git
+    version: indigo-devel
+- git:
+    local-name: dynamic-graph
+    uri: https://github.com/stack-of-tasks/dynamic-graph.git
+    version: devel
+- git:
+    local-name: dynamic-graph-python
+    uri: https://github.com/stack-of-tasks/dynamic-graph-python.git
+    version: devel
+- git:
+    local-name: dynamic-graph-tutorial
+    uri: https://github.com/stack-of-tasks/dynamic-graph-tutorial.git
+    version: devel
+- git:
+    local-name: dynamic_reconfigure
+    uri: https://github.com/ros/dynamic_reconfigure.git
+    version: noetic-devel
+- git:
+    local-name: dynamixel_sdk
+    uri: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+    version: noetic-devel
+- git:
+    local-name: ecl_core
+    uri: https://github.com/stonier/ecl_core.git
+    version: release/0.62-noetic
+- git:
+    local-name: ecl_lite
+    uri: https://github.com/stonier/ecl_lite.git
+    version: release/0.61-noetic
+- git:
+    local-name: ecl_navigation
+    uri: https://github.com/stonier/ecl_navigation.git
+    version: release/0.60-noetic
+- git:
+    local-name: ecl_tools
+    uri: https://github.com/stonier/ecl_tools.git
+    version: release/0.61-noetic
+- git:
+    local-name: eigen_stl_containers
+    uri: https://github.com/ros/eigen_stl_containers.git
+    version: master
+- git:
+    local-name: eigenpy
+    uri: https://github.com/stack-of-tasks/eigenpy.git
+    version: master
+- git:
+    local-name: eiquadprog
+    uri: https://github.com/stack-of-tasks/eiquadprog.git
+    version: devel
+- git:
+    local-name: ergodic_exploration
+    uri: https://github.com/bostoncleek/ergodic_exploration.git
+    version: noetic-devel
+- git:
+    local-name: ethercat_grant
+    uri: https://github.com/shadow-robot/ethercat_grant.git
+    version: noetic-devel
+- git:
+    local-name: executive_smach
+    uri: https://github.com/ros/executive_smach.git
+    version: noetic-devel
+- git:
+    local-name: executive_smach_visualization
+    uri: https://github.com/ros-visualization/executive_smach_visualization.git
+    version: melodic-devel
+- git:
+    local-name: exotica
+    uri: https://github.com/ipab-slmc/exotica.git
+    version: master
+- git:
+    local-name: fadecandy_ros
+    uri: https://github.com/iron-ox/fadecandy_ros.git
+    version: master
+- git:
+    local-name: fcl
+    uri: https://github.com/flexible-collision-library/fcl.git
+    version: master
+- git:
+    local-name: fetch_msgs
+    uri: https://github.com/fetchrobotics/fetch_msgs.git
+    version: ros1
+- git:
+    local-name: fetch_open_auto_dock
+    uri: https://github.com/fetchrobotics/fetch_open_auto_dock.git
+    version: ros1
+- git:
+    local-name: fetch_robots
+    uri: https://github.com/fetchrobotics/fetch_robots.git
+    version: ros1
+- git:
+    local-name: fetch_ros
+    uri: https://github.com/fetchrobotics/fetch_ros.git
+    version: ros1
+- git:
+    local-name: fetch_tools
+    uri: https://github.com/fetchrobotics/fetch_tools.git
+    version: ros1
+- git:
+    local-name: filters
+    uri: https://github.com/ros/filters.git
+    version: noetic-devel
+- git:
+    local-name: find_object_2d
+    uri: https://github.com/introlab/find-object.git
+    version: noetic-devel
+- git:
+    local-name: fkie_message_filters
+    uri: https://github.com/fkie/message_filters.git
+    version: master
+- git:
+    local-name: fkie_multimaster
+    uri: https://github.com/fkie/multimaster_fkie.git
+    version: noetic-devel
+- git:
+    local-name: fkie_potree_rviz_plugin
+    uri: https://github.com/fkie/potree_rviz_plugin.git
+    version: master
+- git:
+    local-name: flexbe
+    uri: https://github.com/team-vigir/flexbe_behavior_engine.git
+    version: master
+- git:
+    local-name: fmi_adapter
+    uri: https://github.com/boschresearch/fmi_adapter.git
+    version: melodic_and_noetic
+- git:
+    local-name: four_wheel_steering_msgs
+    uri: https://github.com/ros-drivers/four_wheel_steering_msgs.git
+    version: master
+- git:
+    local-name: franka_ros
+    uri: https://github.com/frankaemika/franka_ros.git
+    version: noetic-devel
+- git:
+    local-name: gazebo_ros_control_select_joints
+    uri: https://github.com/tu-darmstadt-ros-pkg/gazebo_ros_control_select_joints.git
+    version: master
+- git:
+    local-name: gazebo_ros_pkgs
+    uri: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+    version: noetic-devel
+- git:
+    local-name: gazebo_video_monitors
+    uri: https://github.com/nlamprian/gazebo_video_monitors.git
+    version: master
+- git:
+    local-name: gencpp
+    uri: https://github.com/ros/gencpp.git
+    version: kinetic-devel
+- git:
+    local-name: geneus
+    uri: https://github.com/jsk-ros-pkg/geneus.git
+    version: master
+- git:
+    local-name: genlisp
+    uri: https://github.com/ros/genlisp.git
+    version: kinetic-devel
+- git:
+    local-name: genmsg
+    uri: https://github.com/ros/genmsg.git
+    version: kinetic-devel
+- git:
+    local-name: gennodejs
+    uri: https://github.com/RethinkRobotics-opensource/gennodejs.git
+    version: kinetic-devel
+- git:
+    local-name: genpy
+    uri: https://github.com/ros/genpy.git
+    version: kinetic-devel
+- git:
+    local-name: geometric_shapes
+    uri: https://github.com/ros-planning/geometric_shapes.git
+    version: noetic-devel
+- git:
+    local-name: geometry
+    uri: https://github.com/ros/geometry.git
+    version: noetic-devel
+- git:
+    local-name: geometry2
+    uri: https://github.com/ros/geometry2.git
+    version: noetic-devel
+- git:
+    local-name: geometry_tutorials
+    uri: https://github.com/ros/geometry_tutorials.git
+    version: kinetic-devel
+- git:
+    local-name: gl_dependency
+    uri: https://github.com/ros-visualization/gl_dependency.git
+    version: kinetic-devel
+- git:
+    local-name: gpp
+    uri: https://github.com/dorezyuk/gpp.git
+    version: master
+- git:
+    local-name: gps_umd
+    uri: https://github.com/swri-robotics/gps_umd.git
+    version: master
+- git:
+    local-name: graceful_controller
+    uri: https://github.com/mikeferguson/graceful_controller.git
+    version: ros1
+- git:
+    local-name: graft
+    uri: https://github.com/ros-perception/graft.git
+    version: hydro-devel
+- git:
+    local-name: graph_msgs
+    uri: https://github.com/PickNikRobotics/graph_msgs.git
+    version: jade-devel
+- git:
+    local-name: grasping_msgs
+    uri: https://github.com/mikeferguson/grasping_msgs.git
+    version: ros1
+- git:
+    local-name: haf_grasping
+    uri: https://github.com/davidfischinger/haf_grasping.git
+    version: noetic
+- git:
+    local-name: handeye
+    uri: https://github.com/crigroup/handeye.git
+    version: master
+- git:
+    local-name: hebi_cpp_api_ros
+    uri: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
+    version: master
+- git:
+    local-name: hector_gazebo
+    uri: https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git
+    version: melodic-devel
+- git:
+    local-name: hector_localization
+    uri: https://github.com/tu-darmstadt-ros-pkg/hector_localization.git
+    version: catkin
+- git:
+    local-name: hector_models
+    uri: https://github.com/tu-darmstadt-ros-pkg/hector_models.git
+    version: melodic-devel
+- git:
+    local-name: hector_slam
+    uri: https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
+    version: noetic-devel
+- git:
+    local-name: hfl_driver
+    uri: https://github.com/continental/hfl_driver.git
+    version: ros1/main
+- git:
+    local-name: hls-lfcd-lds-driver
+    uri: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+    version: noetic-devel
+- git:
+    local-name: hokuyo3d
+    uri: https://github.com/at-wat/hokuyo3d.git
+    version: master
+- git:
+    local-name: ifopt
+    uri: https://github.com/ethz-adrl/ifopt.git
+    version: master
+- git:
+    local-name: image_common
+    uri: https://github.com/ros-perception/image_common.git
+    version: noetic-devel
+- git:
+    local-name: image_pipeline
+    uri: https://github.com/ros-perception/image_pipeline.git
+    version: noetic
+- git:
+    local-name: image_transport_plugins
+    uri: https://github.com/ros-perception/image_transport_plugins.git
+    version: noetic-devel
+- git:
+    local-name: imu_pipeline
+    uri: https://github.com/ros-perception/imu_pipeline.git
+    version: noetic-devel
+- git:
+    local-name: imu_tools
+    uri: https://github.com/ccny-ros-pkg/imu_tools.git
+    version: noetic
+- git:
+    local-name: industrial_robot_status_controller
+    uri: https://github.com/gavanderhoorn/industrial_robot_status_controller.git
+    version: master
+- git:
+    local-name: interactive_marker_twist_server
+    uri: https://github.com/ros-visualization/interactive_marker_twist_server.git
+    version: kinetic-devel
+- git:
+    local-name: interactive_markers
+    uri: https://github.com/ros-visualization/interactive_markers.git
+    version: noetic-devel
+- git:
+    local-name: ivcon
+    uri: https://github.com/ros/ivcon.git
+    version: melodic-devel
+- git:
+    local-name: ixblue_ins_stdbin_driver
+    uri: https://github.com/ixblue/ixblue_ins_stdbin_driver.git
+    version: master
+- git:
+    local-name: ixblue_stdbin_decoder
+    uri: https://github.com/ixblue/ixblue_stdbin_decoder.git
+    version: master
+- git:
+    local-name: jderobot_assets
+    uri: https://github.com/JdeRobot/assets.git
+    version: noetic-devel
+- git:
+    local-name: joint_state_publisher
+    uri: https://github.com/ros/joint_state_publisher.git
+    version: noetic-devel
+- git:
+    local-name: joystick_drivers
+    uri: https://github.com/ros-drivers/joystick_drivers.git
+    version: main
+- git:
+    local-name: jsk_3rdparty
+    uri: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
+    version: master
+- git:
+    local-name: jsk_common
+    uri: https://github.com/jsk-ros-pkg/jsk_common.git
+    version: master
+- git:
+    local-name: jsk_common_msgs
+    uri: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
+    version: master
+- git:
+    local-name: jsk_recognition
+    uri: https://github.com/jsk-ros-pkg/jsk_recognition.git
+    version: master
+- git:
+    local-name: jsk_visualization
+    uri: https://github.com/jsk-ros-pkg/jsk_visualization.git
+    version: master
+- git:
+    local-name: kdl_parser
+    uri: https://github.com/ros/kdl_parser.git
+    version: noetic-devel
+- git:
+    local-name: knowledge_representation
+    uri: https://github.com/utexas-bwi/knowledge_representation.git
+    version: master
+- git:
+    local-name: kobuki_core
+    uri: https://github.com/yujinrobot/kobuki_core.git
+    version: noetic
+- git:
+    local-name: kobuki_msgs
+    uri: https://github.com/yujinrobot/kobuki_msgs.git
+    version: noetic
+- git:
+    local-name: lanelet2
+    uri: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
+    version: master
+- git:
+    local-name: laser_assembler
+    uri: https://github.com/ros-perception/laser_assembler.git
+    version: noetic-devel
+- git:
+    local-name: laser_filtering
+    uri: https://github.com/DLu/laser_filtering.git
+    version: noetic
+- git:
+    local-name: laser_filters
+    uri: https://github.com/ros-perception/laser_filters.git
+    version: kinetic-devel
+- git:
+    local-name: laser_geometry
+    uri: https://github.com/ros-perception/laser_geometry.git
+    version: kinetic-devel
+- git:
+    local-name: laser_pipeline
+    uri: https://github.com/ros-perception/laser_pipeline.git
+    version: noetic-devel
+- git:
+    local-name: laser_proc
+    uri: https://github.com/ros-perception/laser_proc.git
+    version: melodic-devel
+- git:
+    local-name: leo_common
+    uri: https://github.com/LeoRover/leo_common.git
+    version: master
+- git:
+    local-name: leo_desktop
+    uri: https://github.com/LeoRover/leo_desktop.git
+    version: master
+- git:
+    local-name: leo_simulator
+    uri: https://github.com/LeoRover/leo_simulator.git
+    version: master
+- git:
+    local-name: lgsvl_msgs
+    uri: https://github.com/lgsvl/lgsvl_msgs.git
+    version: noetic-devel
+- git:
+    local-name: libfranka
+    uri: https://github.com/frankaemika/libfranka.git
+    version: master
+- git:
+    local-name: librealsense2
+    uri: https://github.com/IntelRealSense/librealsense.git
+    version: master
+- git:
+    local-name: libsick_ldmrs
+    uri: https://github.com/SICKAG/libsick_ldmrs.git
+    version: master
+- git:
+    local-name: libuvc_ros
+    uri: https://github.com/ros-drivers/libuvc_ros.git
+    version: master
+- git:
+    local-name: lms1xx
+    uri: https://github.com/clearpathrobotics/lms1xx.git
+    version: noetic-devel
+- git:
+    local-name: log_view
+    uri: https://github.com/hatchbed/log_view.git
+    version: devel
+- git:
+    local-name: lusb
+    uri: https://bitbucket.org/dataspeedinc/lusb.git
+    version: master
+- git:
+    local-name: lvr2
+    uri: https://github.com/uos/lvr2.git
+    version: master
+- git:
+    local-name: m_explore
+    uri: https://github.com/hrnr/m-explore.git
+    version: noetic-devel
+- git:
+    local-name: mapviz
+    uri: https://github.com/swri-robotics/mapviz.git
+    version: master
+- git:
+    local-name: marker_msgs
+    uri: https://github.com/tuw-robotics/marker_msgs.git
+    version: master
+- git:
+    local-name: marti_common
+    uri: https://github.com/swri-robotics/marti_common.git
+    version: master
+- git:
+    local-name: marti_messages
+    uri: https://github.com/swri-robotics/marti_messages.git
+    version: master
+- git:
+    local-name: marvelmind_nav
+    uri: https://bitbucket.org/marvelmind_robotics/ros_marvelmind_package.git
+    version: master
+- git:
+    local-name: mavlink
+    uri: https://github.com/mavlink/mavlink-gbp-release.git
+    version: release/noetic/mavlink
+- git:
+    local-name: mavros
+    uri: https://github.com/mavlink/mavros.git
+    version: master
+- git:
+    local-name: mcl_3dl
+    uri: https://github.com/at-wat/mcl_3dl.git
+    version: master
+- git:
+    local-name: mcl_3dl_msgs
+    uri: https://github.com/at-wat/mcl_3dl_msgs.git
+    version: master
+- git:
+    local-name: media_export
+    uri: https://github.com/ros/media_export.git
+    version: indigo-devel
+- git:
+    local-name: mesh_navigation
+    uri: https://github.com/uos/mesh_navigation.git
+    version: master
+- git:
+    local-name: mesh_tools
+    uri: https://github.com/uos/mesh_tools.git
+    version: master
+- git:
+    local-name: message_generation
+    uri: https://github.com/ros/message_generation.git
+    version: kinetic-devel
+- git:
+    local-name: message_runtime
+    uri: https://github.com/ros/message_runtime.git
+    version: kinetic-devel
+- git:
+    local-name: metapackages
+    uri: https://github.com/ros/metapackages.git
+    version: noetic-devel
+- git:
+    local-name: microstrain_3dmgx2_imu
+    uri: https://github.com/ros-drivers/microstrain_3dmgx2_imu.git
+    version: indigo-devel
+- git:
+    local-name: mir_robot
+    uri: https://github.com/dfki-ric/mir_robot.git
+    version: noetic
+- git:
+    local-name: mobile_robot_simulator
+    uri: https://github.com/nobleo/mobile_robot_simulator.git
+    version: master
+- git:
+    local-name: mocap_optitrack
+    uri: https://github.com/ros-drivers/mocap_optitrack.git
+    version: master
+- git:
+    local-name: move_base_flex
+    uri: https://github.com/magazino/move_base_flex.git
+    version: noetic
+- git:
+    local-name: move_base_sequence
+    uri: https://github.com/MarkNaeem/move_base_sequence.git
+    version: main
+- git:
+    local-name: moveit
+    uri: https://github.com/ros-planning/moveit.git
+    version: noetic-devel
+- git:
+    local-name: moveit_msgs
+    uri: https://github.com/ros-planning/moveit_msgs.git
+    version: master
+- git:
+    local-name: moveit_python
+    uri: https://github.com/mikeferguson/moveit_python.git
+    version: ros1
+- git:
+    local-name: moveit_resources
+    uri: https://github.com/ros-planning/moveit_resources.git
+    version: master
+- git:
+    local-name: moveit_visual_tools
+    uri: https://github.com/ros-planning/moveit_visual_tools.git
+    version: noetic-devel
+- git:
+    local-name: mpc_local_planner
+    uri: https://github.com/rst-tu-dortmund/mpc_local_planner.git
+    version: noetic-devel
+- git:
+    local-name: mqtt_bridge
+    uri: https://github.com/groove-x/mqtt_bridge.git
+    version: master
+- git:
+    local-name: mrpt2
+    uri: https://github.com/mrpt/mrpt.git
+    version: develop
+- git:
+    local-name: mrpt_msgs
+    uri: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
+    version: ros1
+- git:
+    local-name: mrt_cmake_modules
+    uri: https://github.com/KIT-MRT/mrt_cmake_modules.git
+    version: master
+- git:
+    local-name: multi_object_tracking_lidar
+    uri: https://github.com/praveen-palanisamy/multiple-object-tracking-lidar.git
+    version: master
+- git:
+    local-name: multisense_ros
+    uri: https://github.com/carnegierobotics/multisense_ros.git
+    version: master
+- git:
+    local-name: navigation
+    uri: https://github.com/ros-planning/navigation.git
+    version: noetic-devel
+- git:
+    local-name: navigation_experimental
+    uri: https://github.com/ros-planning/navigation_experimental.git
+    version: noetic-devel
+- git:
+    local-name: navigation_msgs
+    uri: https://github.com/ros-planning/navigation_msgs.git
+    version: ros1
+- git:
+    local-name: nearfield_map
+    uri: https://github.com/TUC-ProAut/ros_nearfield_map.git
+    version: master
+- git:
+    local-name: neonavigation
+    uri: https://github.com/at-wat/neonavigation.git
+    version: master
+- git:
+    local-name: neonavigation_msgs
+    uri: https://github.com/at-wat/neonavigation_msgs.git
+    version: master
+- git:
+    local-name: neonavigation_rviz_plugins
+    uri: https://github.com/at-wat/neonavigation_rviz_plugins.git
+    version: master
+- git:
+    local-name: nerian_stereo
+    uri: https://github.com/nerian-vision/nerian_stereo.git
+    version: master
+- git:
+    local-name: network_interface
+    uri: https://github.com/astuff/network_interface.git
+    version: master
+- git:
+    local-name: nmea_comms
+    uri: https://github.com/ros-drivers/nmea_comms.git
+    version: jade-devel
+- git:
+    local-name: nmea_msgs
+    uri: https://github.com/ros-drivers/nmea_msgs.git
+    version: master
+- git:
+    local-name: nmea_navsat_driver
+    uri: https://github.com/ros-drivers/nmea_navsat_driver.git
+    version: master
+- git:
+    local-name: nodelet_core
+    uri: https://github.com/ros/nodelet_core.git
+    version: noetic-devel
+- git:
+    local-name: nonpersistent_voxel_layer
+    uri: https://github.com/SteveMacenski/nonpersistent_voxel_layer.git
+    version: melodic-devel
+- git:
+    local-name: novatel_oem7_driver
+    uri: https://github.com/novatel/novatel_oem7_driver.git
+    version: master
+- git:
+    local-name: object_recognition_msgs
+    uri: https://github.com/wg-perception/object_recognition_msgs.git
+    version: noetic-devel
+- git:
+    local-name: octomap
+    uri: https://github.com/OctoMap/octomap.git
+    version: devel
+- git:
+    local-name: octomap_mapping
+    uri: https://github.com/OctoMap/octomap_mapping.git
+    version: kinetic-devel
+- git:
+    local-name: octomap_msgs
+    uri: https://github.com/OctoMap/octomap_msgs.git
+    version: melodic-devel
+- git:
+    local-name: octomap_pa
+    uri: https://github.com/TUC-ProAut/ros_octomap.git
+    version: master
+- git:
+    local-name: octomap_ros
+    uri: https://github.com/OctoMap/octomap_ros.git
+    version: melodic-devel
+- git:
+    local-name: octomap_rviz_plugins
+    uri: https://github.com/OctoMap/octomap_rviz_plugins.git
+    version: kinetic-devel
+- git:
+    local-name: odva_ethernetip
+    uri: https://github.com/ros-drivers/odva_ethernetip.git
+    version: kinetic-devel
+- git:
+    local-name: omron_os32c_driver
+    uri: https://github.com/ros-drivers/omron.git
+    version: kinetic-devel
+- git:
+    local-name: open_karto
+    uri: https://github.com/ros-perception/open_karto.git
+    version: melodic-devel
+- git:
+    local-name: opencv_apps
+    uri: https://github.com/ros-perception/opencv_apps.git
+    version: indigo
+- git:
+    local-name: openni2_camera
+    uri: https://github.com/ros-drivers/openni2_camera.git
+    version: ros1
+- git:
+    local-name: openslam_gmapping
+    uri: https://github.com/ros-perception/openslam_gmapping.git
+    version: melodic-devel
+- git:
+    local-name: openzen_sensor
+    uri: https://bitbucket.org/lpresearch/openzenros.git
+    version: master
+- git:
+    local-name: opw_kinematics
+    uri: https://github.com/Jmeyer1292/opw_kinematics.git
+    version: master
+- git:
+    local-name: osqp_vendor
+    uri: https://github.com/tier4/osqp_vendor.git
+    version: noetic
+- git:
+    local-name: oxford_gps_eth
+    uri: https://bitbucket.org/DataspeedInc/oxford_gps_eth.git
+    version: master
+- git:
+    local-name: p2os
+    uri: https://github.com/allenh1/p2os.git
+    version: main
+- git:
+    local-name: panda_moveit_config
+    uri: https://github.com/ros-planning/panda_moveit_config.git
+    version: melodic-devel
+- git:
+    local-name: parameter_pa
+    uri: https://github.com/tuc-proaut/ros_parameter.git
+    version: master
+- git:
+    local-name: pcdfilter_pa
+    uri: https://github.com/tuc-proaut/ros_pcdfilter.git
+    version: master
+- git:
+    local-name: pcl_msgs
+    uri: https://github.com/ros-perception/pcl_msgs.git
+    version: noetic-devel
+- git:
+    local-name: people
+    uri: https://github.com/wg-perception/people.git
+    version: noetic
+- git:
+    local-name: perception_pcl
+    uri: https://github.com/ros-perception/perception_pcl.git
+    version: melodic-devel
+- git:
+    local-name: phidgets_drivers
+    uri: https://github.com/ros-drivers/phidgets_drivers.git
+    version: noetic
+- git:
+    local-name: picovoice-ros
+    uri: https://github.com/reinzor/picovoice_ros.git
+    version: main
+- git:
+    local-name: pid
+    uri: https://bitbucket.org/AndyZe/pid.git
+    version: master
+- git:
+    local-name: pilz_common
+    uri: https://github.com/PilzDE/pilz_common.git
+    version: noetic-devel
+- git:
+    local-name: pincher_arm
+    uri: https://github.com/fictionlab/pincher_arm.git
+    version: master
+- git:
+    local-name: pinocchio
+    uri: https://github.com/stack-of-tasks/pinocchio.git
+    version: devel
+- git:
+    local-name: plotjuggler
+    uri: https://github.com/facontidavide/PlotJuggler.git
+    version: main
+- git:
+    local-name: plotjuggler_msgs
+    uri: https://github.com/facontidavide/plotjuggler_msgs.git
+    version: ros1
+- git:
+    local-name: plotjuggler_ros
+    uri: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
+    version: development
+- git:
+    local-name: pluginlib
+    uri: https://github.com/ros/pluginlib.git
+    version: noetic-devel
+- git:
+    local-name: pointcloud_to_laserscan
+    uri: https://github.com/ros-perception/pointcloud_to_laserscan.git
+    version: lunar-devel
+- git:
+    local-name: pointgrey_camera_driver
+    uri: https://github.com/ros-drivers/pointgrey_camera_driver.git
+    version: noetic-devel
+- git:
+    local-name: power_msgs
+    uri: https://github.com/fetchrobotics/power_msgs.git
+    version: ros1
+- git:
+    local-name: pr2_common
+    uri: https://github.com/pr2/pr2_common.git
+    version: melodic-devel
+- git:
+    local-name: pr2_ethercat_drivers
+    uri: https://github.com/pr2/pr2_ethercat_drivers.git
+    version: kinetic-devel
+- git:
+    local-name: pr2_mechanism
+    uri: https://github.com/pr2/pr2_mechanism.git
+    version: kinetic-devel
+- git:
+    local-name: pr2_mechanism_msgs
+    uri: https://github.com/pr2/pr2_mechanism_msgs.git
+    version: master
+- git:
+    local-name: pr2_power_drivers
+    uri: https://github.com/pr2/pr2_power_drivers.git
+    version: kinetic-devel
+- git:
+    local-name: prosilica_driver
+    uri: https://github.com/ros-drivers/prosilica_driver.git
+    version: noetic-devel
+- git:
+    local-name: prosilica_gige_sdk
+    uri: https://github.com/ros-drivers/prosilica_gige_sdk.git
+    version: hydro-devel
+- git:
+    local-name: psen_scan_v2
+    uri: https://github.com/PilzDE/psen_scan_v2.git
+    version: main
+- git:
+    local-name: py_trees
+    uri: https://github.com/splintered-reality/py_trees.git
+    version: release/0.7.x
+- git:
+    local-name: py_trees_msgs
+    uri: https://github.com/splintered-reality/py_trees_msgs.git
+    version: release/0.3.x
+- git:
+    local-name: py_trees_ros
+    uri: https://github.com/splintered-reality/py_trees_ros.git
+    version: release/0.6.x
+- git:
+    local-name: pyquaternion
+    uri: https://github.com/Achllle/pyquaternion.git
+    version: noetic-devel
+- git:
+    local-name: python_qt_binding
+    uri: https://github.com/ros-visualization/python_qt_binding.git
+    version: melodic-devel
+- git:
+    local-name: qpoases_vendor
+    uri: https://github.com/autoware-ai/qpoases_vendor.git
+    version: master
+- git:
+    local-name: qt_gui_core
+    uri: https://github.com/ros-visualization/qt_gui_core.git
+    version: melodic-devel
+- git:
+    local-name: qwt_dependency
+    uri: https://github.com/ros-visualization/qwt_dependency.git
+    version: kinetic-devel
+- git:
+    local-name: radar_msgs
+    uri: https://github.com/ros-perception/radar_msgs.git
+    version: noetic
+- git:
+    local-name: radar_pa
+    uri: https://github.com/TUC-ProAut/ros_radar.git
+    version: master
+- git:
+    local-name: random_numbers
+    uri: https://github.com/ros-planning/random_numbers.git
+    version: master
+- git:
+    local-name: raptor-dbw-ros
+    uri: https://github.com/NewEagleRaptor/raptor-dbw-ros.git
+    version: master
+- git:
+    local-name: razor_imu_9dof
+    uri: https://github.com/ENSTABretagneRobotics/razor_imu_9dof.git
+    version: indigo-devel
+- git:
+    local-name: rc_common_msgs
+    uri: https://github.com/roboception/rc_common_msgs.git
+    version: master
+- git:
+    local-name: rc_dynamics_api
+    uri: https://github.com/roboception/rc_dynamics_api.git
+    version: master
+- git:
+    local-name: rc_genicam_api
+    uri: https://github.com/roboception/rc_genicam_api.git
+    version: master
+- git:
+    local-name: rc_genicam_camera
+    uri: https://github.com/roboception/rc_genicam_camera.git
+    version: master
+- git:
+    local-name: rc_genicam_driver
+    uri: https://github.com/roboception/rc_genicam_driver_ros.git
+    version: master
+- git:
+    local-name: rc_visard
+    uri: https://github.com/roboception/rc_visard_ros.git
+    version: master
+- git:
+    local-name: rcdiscover
+    uri: https://github.com/roboception/rcdiscover.git
+    version: master
+- git:
+    local-name: realsense2_camera
+    uri: https://github.com/IntelRealSense/realsense-ros.git
+    version: development
+- git:
+    local-name: realtime_tools
+    uri: https://github.com/ros-controls/realtime_tools.git
+    version: melodic-devel
+- git:
+    local-name: remote_rosbag_record
+    uri: https://github.com/yoshito-n-students/remote_rosbag_record.git
+    version: master
+- git:
+    local-name: resource_retriever
+    uri: https://github.com/ros/resource_retriever.git
+    version: kinetic-devel
+- git:
+    local-name: rgbd_launch
+    uri: https://github.com/ros-drivers/rgbd_launch.git
+    version: noetic-devel
+- git:
+    local-name: robot_body_filter
+    uri: https://github.com/peci1/robot_body_filter.git
+    version: master
+- git:
+    local-name: robot_calibration
+    uri: https://github.com/mikeferguson/robot_calibration.git
+    version: ros1
+- git:
+    local-name: robot_controllers
+    uri: https://github.com/fetchrobotics/robot_controllers.git
+    version: ros1
+- git:
+    local-name: robot_localization
+    uri: https://github.com/cra-ros-pkg/robot_localization.git
+    version: noetic-devel
+- git:
+    local-name: robot_navigation
+    uri: https://github.com/locusrobotics/robot_navigation.git
+    version: noetic
+- git:
+    local-name: robot_pose_ekf
+    uri: https://github.com/ros-planning/robot_pose_ekf.git
+    version: master
+- git:
+    local-name: robot_self_filter
+    uri: https://github.com/pr2/robot_self_filter.git
+    version: indigo-devel
+- git:
+    local-name: robot_state_publisher
+    uri: https://github.com/ros/robot_state_publisher.git
+    version: noetic-devel
+- git:
+    local-name: robot_upstart
+    uri: https://github.com/clearpathrobotics/robot_upstart.git
+    version: noetic-devel
+- git:
+    local-name: roboticsgroup_upatras_gazebo_plugins
+    uri: https://github.com/roboticsgroup/roboticsgroup_upatras_gazebo_plugins.git
+    version: master
+- git:
+    local-name: ros
+    uri: https://github.com/ros/ros.git
+    version: noetic-devel
+- git:
+    local-name: ros_babel_fish
+    uri: https://github.com/StefanFabian/ros_babel_fish.git
+    version: kinetic
+- git:
+    local-name: ros_canopen
+    uri: https://github.com/ros-industrial/ros_canopen.git
+    version: melodic-devel
+- git:
+    local-name: ros_comm
+    uri: https://github.com/ros/ros_comm.git
+    version: noetic-devel
+- git:
+    local-name: ros_comm_msgs
+    uri: https://github.com/ros/ros_comm_msgs.git
+    version: kinetic-devel
+- git:
+    local-name: ros_control
+    uri: https://github.com/ros-controls/ros_control.git
+    version: noetic-devel
+- git:
+    local-name: ros_control_boilerplate
+    uri: https://github.com/PickNikRobotics/ros_control_boilerplate.git
+    version: noetic-devel
+- git:
+    local-name: ros_controllers
+    uri: https://github.com/ros-controls/ros_controllers.git
+    version: noetic-devel
+- git:
+    local-name: ros_emacs_utils
+    uri: https://github.com/code-iai/ros_emacs_utils.git
+    version: master
+- git:
+    local-name: ros_environment
+    uri: https://github.com/ros/ros_environment.git
+    version: noetic
+- git:
+    local-name: ros_ign
+    uri: https://github.com/ignitionrobotics/ros_ign.git
+    version: noetic
+- git:
+    local-name: ros_industrial_cmake_boilerplate
+    uri: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
+    version: master
+- git:
+    local-name: ros_led
+    uri: https://github.com/CopterExpress/ros_led.git
+    version: master
+- git:
+    local-name: ros_numpy
+    uri: https://github.com/eric-wieser/ros_numpy.git
+    version: master
+- git:
+    local-name: ros_pytest
+    uri: https://github.com/machinekoder/ros_pytest.git
+    version: noetic-devel
+- git:
+    local-name: ros_tutorials
+    uri: https://github.com/ros/ros_tutorials.git
+    version: noetic-devel
+- git:
+    local-name: ros_type_introspection
+    uri: https://github.com/facontidavide/ros_type_introspection.git
+    version: master
+- git:
+    local-name: rosbag_migration_rule
+    uri: https://github.com/ros/rosbag_migration_rule.git
+    version: master
+- git:
+    local-name: rosbag_snapshot
+    uri: https://github.com/ros/rosbag_snapshot.git
+    version: main
+- git:
+    local-name: rosbridge_suite
+    uri: https://github.com/RobotWebTools/rosbridge_suite.git
+    version: develop
+- git:
+    local-name: roscompile
+    uri: https://github.com/DLu/roscompile.git
+    version: main
+- git:
+    local-name: rosconsole
+    uri: https://github.com/ros/rosconsole.git
+    version: noetic-devel
+- git:
+    local-name: rosconsole_bridge
+    uri: https://github.com/ros/rosconsole_bridge.git
+    version: kinetic-devel
+- git:
+    local-name: roscpp_core
+    uri: https://github.com/ros/roscpp_core.git
+    version: noetic-devel
+- git:
+    local-name: rosdoc_lite
+    uri: https://github.com/ros-infrastructure/rosdoc_lite.git
+    version: master
+- git:
+    local-name: rosfmt
+    uri: https://github.com/xqms/rosfmt.git
+    version: master
+- git:
+    local-name: roslint
+    uri: https://github.com/ros/roslint.git
+    version: master
+- git:
+    local-name: roslisp
+    uri: https://github.com/ros/roslisp.git
+    version: master
+- git:
+    local-name: rosmon
+    uri: https://github.com/xqms/rosmon.git
+    version: master
+- git:
+    local-name: rospack
+    uri: https://github.com/ros/rospack.git
+    version: noetic-devel
+- git:
+    local-name: rosparam_shortcuts
+    uri: https://github.com/PickNikRobotics/rosparam_shortcuts.git
+    version: noetic-devel
+- git:
+    local-name: rospilot
+    uri: https://github.com/rospilot/rospilot.git
+    version: noetic
+- git:
+    local-name: rospy_message_converter
+    uri: https://github.com/uos/rospy_message_converter.git
+    version: master
+- git:
+    local-name: rosserial
+    uri: https://github.com/ros-drivers/rosserial.git
+    version: noetic-devel
+- git:
+    local-name: rqt
+    uri: https://github.com/ros-visualization/rqt.git
+    version: kinetic-devel
+- git:
+    local-name: rqt_action
+    uri: https://github.com/ros-visualization/rqt_action.git
+    version: master
+- git:
+    local-name: rqt_bag
+    uri: https://github.com/ros-visualization/rqt_bag.git
+    version: master
+- git:
+    local-name: rqt_common_plugins
+    uri: https://github.com/ros-visualization/rqt_common_plugins.git
+    version: master
+- git:
+    local-name: rqt_console
+    uri: https://github.com/ros-visualization/rqt_console.git
+    version: master
+- git:
+    local-name: rqt_dep
+    uri: https://github.com/ros-visualization/rqt_dep.git
+    version: master
+- git:
+    local-name: rqt_ez_publisher
+    uri: https://github.com/OTL/rqt_ez_publisher.git
+    version: noetic-devel
+- git:
+    local-name: rqt_graph
+    uri: https://github.com/ros-visualization/rqt_graph.git
+    version: master
+- git:
+    local-name: rqt_image_view
+    uri: https://github.com/ros-visualization/rqt_image_view.git
+    version: master
+- git:
+    local-name: rqt_launch
+    uri: https://github.com/ros-visualization/rqt_launch.git
+    version: master
+- git:
+    local-name: rqt_logger_level
+    uri: https://github.com/ros-visualization/rqt_logger_level.git
+    version: master
+- git:
+    local-name: rqt_moveit
+    uri: https://github.com/ros-visualization/rqt_moveit.git
+    version: master
+- git:
+    local-name: rqt_msg
+    uri: https://github.com/ros-visualization/rqt_msg.git
+    version: master
+- git:
+    local-name: rqt_nav_view
+    uri: https://github.com/ros-visualization/rqt_nav_view.git
+    version: master
+- git:
+    local-name: rqt_plot
+    uri: https://github.com/ros-visualization/rqt_plot.git
+    version: master
+- git:
+    local-name: rqt_pose_view
+    uri: https://github.com/ros-visualization/rqt_pose_view.git
+    version: master
+- git:
+    local-name: rqt_publisher
+    uri: https://github.com/ros-visualization/rqt_publisher.git
+    version: master
+- git:
+    local-name: rqt_py_console
+    uri: https://github.com/ros-visualization/rqt_py_console.git
+    version: master
+- git:
+    local-name: rqt_py_trees
+    uri: https://github.com/stonier/rqt_py_trees.git
+    version: release/0.4.x
+- git:
+    local-name: rqt_reconfigure
+    uri: https://github.com/ros-visualization/rqt_reconfigure.git
+    version: master
+- git:
+    local-name: rqt_robot_dashboard
+    uri: https://github.com/ros-visualization/rqt_robot_dashboard.git
+    version: master
+- git:
+    local-name: rqt_robot_monitor
+    uri: https://github.com/ros-visualization/rqt_robot_monitor.git
+    version: master
+- git:
+    local-name: rqt_robot_plugins
+    uri: https://github.com/ros-visualization/rqt_robot_plugins.git
+    version: master
+- git:
+    local-name: rqt_robot_steering
+    uri: https://github.com/ros-visualization/rqt_robot_steering.git
+    version: master
+- git:
+    local-name: rqt_runtime_monitor
+    uri: https://github.com/ros-visualization/rqt_runtime_monitor.git
+    version: master
+- git:
+    local-name: rqt_rviz
+    uri: https://github.com/ros-visualization/rqt_rviz.git
+    version: lunar-devel
+- git:
+    local-name: rqt_service_caller
+    uri: https://github.com/ros-visualization/rqt_service_caller.git
+    version: master
+- git:
+    local-name: rqt_shell
+    uri: https://github.com/ros-visualization/rqt_shell.git
+    version: master
+- git:
+    local-name: rqt_srv
+    uri: https://github.com/ros-visualization/rqt_srv.git
+    version: master
+- git:
+    local-name: rqt_tf_tree
+    uri: https://github.com/ros-visualization/rqt_tf_tree.git
+    version: master
+- git:
+    local-name: rqt_top
+    uri: https://github.com/ros-visualization/rqt_top.git
+    version: master
+- git:
+    local-name: rqt_topic
+    uri: https://github.com/ros-visualization/rqt_topic.git
+    version: master
+- git:
+    local-name: rqt_web
+    uri: https://github.com/ros-visualization/rqt_web.git
+    version: master
+- git:
+    local-name: rtabmap
+    uri: https://github.com/introlab/rtabmap.git
+    version: noetic-devel
+- git:
+    local-name: rtabmap_ros
+    uri: https://github.com/introlab/rtabmap_ros.git
+    version: noetic-devel
+- git:
+    local-name: rviz
+    uri: https://github.com/ros-visualization/rviz.git
+    version: noetic-devel
+- git:
+    local-name: rviz_satellite
+    uri: https://github.com/nobleo/rviz_satellite.git
+    version: master
+- git:
+    local-name: rviz_visual_tools
+    uri: https://github.com/PickNikRobotics/rviz_visual_tools.git
+    version: noetic-devel
+- git:
+    local-name: rx_service_tools
+    uri: https://github.com/nobleo/rx_service_tools.git
+    version: master
+- git:
+    local-name: sainsmart_relay_usb
+    uri: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb.git
+    version: master
+- git:
+    local-name: scan_tools
+    uri: https://github.com/ccny-ros-pkg/scan_tools.git
+    version: ros1
+- git:
+    local-name: schunk_modular_robotics
+    uri: https://github.com/ipa320/schunk_modular_robotics.git
+    version: kinetic_dev
+- git:
+    local-name: sdhlibrary_cpp
+    uri: https://github.com/ipab-slmc/SDHLibrary-CPP.git
+    version: master
+- git:
+    local-name: septentrio_gnss_driver
+    uri: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
+    version: master
+- git:
+    local-name: sick_ldmrs_laser
+    uri: https://github.com/SICKAG/sick_ldmrs_laser.git
+    version: noetic
+- git:
+    local-name: sick_safetyscanners
+    uri: https://github.com/SICKAG/sick_safetyscanners.git
+    version: master
+- git:
+    local-name: sick_scan
+    uri: https://github.com/SICKAG/sick_scan.git
+    version: master
+- git:
+    local-name: sick_tim
+    uri: https://github.com/uos/sick_tim.git
+    version: noetic
+- git:
+    local-name: simple_grasping
+    uri: https://github.com/mikeferguson/simple_grasping.git
+    version: ros1
+- git:
+    local-name: slam_gmapping
+    uri: https://github.com/ros-perception/slam_gmapping.git
+    version: melodic-devel
+- git:
+    local-name: slam_karto
+    uri: https://github.com/ros-perception/slam_karto.git
+    version: melodic-devel
+- git:
+    local-name: slam_toolbox
+    uri: https://github.com/SteveMacenski/slam_toolbox.git
+    version: noetic-devel
+- git:
+    local-name: sob_layer
+    uri: https://github.com/dorezyuk/sob_layer.git
+    version: master
+- git:
+    local-name: soem
+    uri: https://github.com/mgruhler/soem.git
+    version: melodic
+- git:
+    local-name: sophus
+    uri: https://github.com/stonier/sophus.git
+    version: release/1.1.x
+- git:
+    local-name: sot-core
+    uri: https://github.com/stack-of-tasks/sot-core.git
+    version: devel
+- git:
+    local-name: sot-dynamic-pinocchio
+    uri: https://github.com/stack-of-tasks/sot-dynamic-pinocchio.git
+    version: devel
+- git:
+    local-name: sot-tools
+    uri: https://github.com/stack-of-tasks/sot-tools.git
+    version: devel
+- git:
+    local-name: sparse_bundle_adjustment
+    uri: https://github.com/ros-perception/sparse_bundle_adjustment.git
+    version: melodic-devel
+- git:
+    local-name: srdfdom
+    uri: https://github.com/ros-planning/srdfdom.git
+    version: noetic-devel
+- git:
+    local-name: stag_ros
+    uri: https://github.com/usrl-uofsc/stag_ros.git
+    version: noetic-devel
+- git:
+    local-name: stage
+    uri: https://github.com/ros-gbp/stage-release.git
+    version: release/noetic/stage
+- git:
+    local-name: stage_ros
+    uri: https://github.com/ros-simulation/stage_ros.git
+    version: lunar-devel
+- git:
+    local-name: std_msgs
+    uri: https://github.com/ros/std_msgs.git
+    version: kinetic-devel
+- git:
+    local-name: swri_console
+    uri: https://github.com/swri-robotics/swri_console.git
+    version: master
+- git:
+    local-name: swri_profiler
+    uri: https://github.com/swri-robotics/swri_profiler.git
+    version: master
+- git:
+    local-name: taskflow
+    uri: https://github.com/taskflow/taskflow.git
+    version: master
+- git:
+    local-name: teb_local_planner
+    uri: https://github.com/rst-tu-dortmund/teb_local_planner.git
+    version: noetic-devel
+- git:
+    local-name: teleop_legged_robots
+    uri: https://github.com/SoftServeSAG/teleop_legged_robots.git
+    version: main
+- git:
+    local-name: teleop_tools
+    uri: https://github.com/ros-teleop/teleop_tools.git
+    version: kinetic-devel
+- git:
+    local-name: teleop_twist_joy
+    uri: https://github.com/ros-teleop/teleop_twist_joy.git
+    version: indigo-devel
+- git:
+    local-name: teleop_twist_keyboard
+    uri: https://github.com/ros-teleop/teleop_twist_keyboard.git
+    version: master
+- git:
+    local-name: tesseract
+    uri: https://github.com/ros-industrial-consortium/tesseract.git
+    version: master
+- git:
+    local-name: tf2_web_republisher
+    uri: https://github.com/RobotWebTools/tf2_web_republisher.git
+    version: master
+- git:
+    local-name: toposens
+    uri: https://gitlab.com/toposens/public/ros-packages.git
+    version: master
+- git:
+    local-name: trac_ik
+    uri: https://bitbucket.org/traclabs/trac_ik.git
+    version: master
+- git:
+    local-name: tsid
+    uri: https://github.com/stack-of-tasks/tsid.git
+    version: devel
+- git:
+    local-name: turtlebot3
+    uri: https://github.com/ROBOTIS-GIT/turtlebot3.git
+    version: noetic-devel
+- git:
+    local-name: turtlebot3_msgs
+    uri: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+    version: noetic-devel
+- git:
+    local-name: turtlebot3_simulations
+    uri: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+    version: noetic-devel
+- git:
+    local-name: tuw_geometry
+    uri: https://github.com/tuw-robotics/tuw_geometry.git
+    version: noetic
+- git:
+    local-name: tuw_msgs
+    uri: https://github.com/tuw-robotics/tuw_msgs.git
+    version: noetic
+- git:
+    local-name: tuw_multi_robot
+    uri: https://github.com/tuw-robotics/tuw_multi_robot.git
+    version: noetic
+- git:
+    local-name: twist_mux
+    uri: https://github.com/ros-teleop/twist_mux.git
+    version: melodic-devel
+- git:
+    local-name: twist_mux_msgs
+    uri: https://github.com/ros-teleop/twist_mux_msgs.git
+    version: melodic-devel
+- git:
+    local-name: ublox
+    uri: https://github.com/KumarRobotics/ublox.git
+    version: master
+- git:
+    local-name: udp_com
+    uri: https://github.com/continental/udp_com.git
+    version: ros1/main
+- git:
+    local-name: ueye_cam
+    uri: https://github.com/anqixu/ueye_cam.git
+    version: master
+- git:
+    local-name: ur_client_library
+    uri: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
+    version: boost
+- git:
+    local-name: urdf
+    uri: https://github.com/ros/urdf.git
+    version: melodic-devel
+- git:
+    local-name: urdf_geometry_parser
+    uri: https://github.com/ros-controls/urdf_geometry_parser.git
+    version: kinetic-devel
+- git:
+    local-name: urdf_sim_tutorial
+    uri: https://github.com/ros/urdf_sim_tutorial.git
+    version: ros1
+- git:
+    local-name: urdf_tutorial
+    uri: https://github.com/ros/urdf_tutorial.git
+    version: master
+- git:
+    local-name: urdfdom_py
+    uri: https://github.com/ros/urdf_parser_py.git
+    version: melodic-devel
+- git:
+    local-name: urg_c
+    uri: https://github.com/ros-drivers/urg_c.git
+    version: master
+- git:
+    local-name: urg_node
+    uri: https://github.com/ros-drivers/urg_node.git
+    version: kinetic-devel
+- git:
+    local-name: urg_stamped
+    uri: https://github.com/seqsense/urg_stamped.git
+    version: master
+- git:
+    local-name: usb_cam
+    uri: https://github.com/ros-drivers/usb_cam.git
+    version: develop
+- git:
+    local-name: usb_cam_hardware
+    uri: https://github.com/yoshito-n-students/usb_cam_hardware.git
+    version: noetic-devel
+- git:
+    local-name: velo2cam_calibration
+    uri: https://github.com/beltransen/velo2cam_calibration.git
+    version: master
+- git:
+    local-name: velo2cam_gazebo
+    uri: https://github.com/beltransen/velo2cam_gazebo.git
+    version: master
+- git:
+    local-name: velodyne
+    uri: https://github.com/ros-drivers/velodyne.git
+    version: master
+- git:
+    local-name: velodyne_simulator
+    uri: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
+    version: master
+- git:
+    local-name: video_stream_opencv
+    uri: https://github.com/ros-drivers/video_stream_opencv.git
+    version: master
+- git:
+    local-name: view_controller_msgs
+    uri: https://github.com/ros-visualization/view_controller_msgs.git
+    version: lunar-devel
+- git:
+    local-name: vision_msgs
+    uri: https://github.com/Kukanani/vision_msgs.git
+    version: noetic-devel
+- git:
+    local-name: vision_opencv
+    uri: https://github.com/ros-perception/vision_opencv.git
+    version: noetic
+- git:
+    local-name: visp
+    uri: https://github.com/lagadic/visp.git
+    version: master
+- git:
+    local-name: visualization_tutorials
+    uri: https://github.com/ros-visualization/visualization_tutorials.git
+    version: noetic-devel
+- git:
+    local-name: vl53l1x_ros
+    uri: https://github.com/okalachev/vl53l1x_ros.git
+    version: master
+- git:
+    local-name: vrpn
+    uri: https://github.com/vrpn/vrpn.git
+    version: master
+- git:
+    local-name: vrpn_client_ros
+    uri: https://github.com/ros-drivers/vrpn_client_ros.git
+    version: kinetic-devel
+- git:
+    local-name: warehouse_ros
+    uri: https://github.com/ros-planning/warehouse_ros.git
+    version: kinetic-devel
+- git:
+    local-name: warehouse_ros_mongo
+    uri: https://github.com/ros-planning/warehouse_ros_mongo.git
+    version: noetic-devel
+- git:
+    local-name: webkit_dependency
+    uri: https://github.com/ros-visualization/webkit_dependency.git
+    version: kinetic-devel
+- git:
+    local-name: webots_ros
+    uri: https://github.com/cyberbotics/webots_ros.git
+    version: master
+- git:
+    local-name: wge100_driver
+    uri: https://github.com/ros-drivers/wge100_driver.git
+    version: noetic-devel
+- git:
+    local-name: willow_maps
+    uri: https://github.com/pr2/willow_maps.git
+    version: kinetic-devel
+- git:
+    local-name: wireless
+    uri: https://github.com/clearpathrobotics/wireless.git
+    version: master
+- git:
+    local-name: wu_ros_tools
+    uri: https://github.com/DLu/wu_ros_tools.git
+    version: noetic
+- git:
+    local-name: xacro
+    uri: https://github.com/ros/xacro.git
+    version: noetic-devel
+- git:
+    local-name: xpp
+    uri: https://github.com/leggedrobotics/xpp.git
+    version: master
+- git:
+    local-name: yp-spur
+    uri: https://github.com/openspur/yp-spur.git
+    version: master
+- git:
+    local-name: ypspur_ros
+    uri: https://github.com/openspur/ypspur_ros.git
+    version: master
+- git:
+    local-name: z_laser_projector
+    uri: https://github.com/fada-catec/z_laser_projector.git
+    version: noetic
+- git:
+    local-name: zbar_ros
+    uri: https://github.com/ros-drivers/zbar_ros.git
+    version: melodic-devel
+
