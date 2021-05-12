@@ -1,3 +1,5 @@
 float32[] pose
 ------
-int8 res
+float32[] wm
+float32[] wh
+float32[] t

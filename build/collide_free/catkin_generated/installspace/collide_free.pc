@@ -3,6 +3,6 @@ prefix=/home/kehan/neurobot_ws/install
 Name: collide_free
 Description: Description of collide_free
 Version: 0.0.0
-Cflags: 
+Cflags: -I${prefix}/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: roscpp rospy std_msgs message_runtime

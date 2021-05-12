@@ -3,12 +3,9 @@ import numpy as np
 import math as m
 
 '''
- This method defines the forward kinematics for the neurosurgery robot.
- Returns(Neuro_FK_output): A 4x4 transformation from the robot base to the robot treatment zone
- Note: All rotations should be given in units of radians
  Joint variables of the robot
-   1) AxialHeadTranslation (corresponds to the delta_z_sup)
-   2) AxialFeetTranslation (corresponds to the delta_z_inf )
+   1) AxialHeadTranslation -86 to 0(corresponds to the delta_z_sup)
+   2) AxialFeetTranslation -143 to 57(corresponds to the delta_z_inf )
    3) LateralTranslation (ranging from -37.5 to 0 mm)
    the first three degree of freedom of the robot positions the robot's RCM point at a target location
    4) PitchRotation (Ry ranging from -37.2 to 30.6 deg)
@@ -156,7 +153,7 @@ def IK_Z_tip(entance_posz,target_posz):
 
 
 
-
+'''
 def IK_entrance(entance_posz):
     #parameter of the robot, change if needed
     lengthOfAxialTrapezoidSideLink = 60
@@ -196,4 +193,4 @@ def IK_entrance(entance_posz):
 
     desired_pos = [LateralTranslation.item(), AxialHeadTranslation.item(), 0, 0, 0, 0, AxialFeetTranslation.item()]
 
-    return desired_pos
+    return desired_pos'''

@@ -77,24 +77,28 @@ def MRI_collide_detection(joint_pos):
     
     # calculate the distance from danger point to MRI bore
     collision_factor = 0
+    collison_array = []
     for idx,points in enumerate(Z_points):
         disC= radius_bore - m.sqrt((points[0] - ozx) ** 2 + (points[1] - ozy) ** 2)
         # collision factor calculation
         if disC <= 0:
             collision_factor = 1
+            collison_array.append(collision_factor)
             break
         else:
+            collison_array.append((dis_safe - disC)/dis_safe)
             collision_factor = collision_factor + w[idx]*(dis_safe - disC) 
-    collision_factor = collision_factor/dis_safe
+    if collision_factor != 1:
+        collision_factor = collision_factor/dis_safe
 
-    return collision_factor
+    return collision_factor, np.array(collison_array)
 
 
 # similar to previous one, checking the distance to head. But this time, the calculation should be in 3D
 def Head_collide_detection(joint_pos):
 
     # radius of the head
-    radius_head = 200
+    radius_head = 100
     # determine weight of each danger point colliding possibility to total
     w = [0.3,0.1,0.3,0.1,0.22]
     #define clearance distance
@@ -144,15 +148,18 @@ def Head_collide_detection(joint_pos):
 
     # calculate the distance from danger point to patient head
     collision_factor = 0
+    collison_array = []
     for idx,point in enumerate(Z_points):
-        disC = radius_head - m.sqrt((point[0] - ozx) ** 2 + (point[1] - ozy) ** 2 + (point[2] - ozz) ** 2)
+        disC =  m.sqrt((point[0] - ozx) ** 2 + (point[1] - ozy) ** 2 + (point[2] - ozz) ** 2) - radius_head 
         # collision factor calculation
         if disC <= 0:
             collision_factor = 1
+            collison_array.append(collision_factor)
             break
         else:
+            collison_array.append((dis_safe - disC)/dis_safe)
             collision_factor = collision_factor + w[idx]*(dis_safe - disC)
+    if collision_factor != 1:
+        collision_factor = collision_factor/dis_safe
 
-    collision_factor = collision_factor/dis_safe
-
-    return collision_factor
+    return collision_factor, np.array(collison_array)
