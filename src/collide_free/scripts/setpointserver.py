@@ -40,6 +40,8 @@ def set_point_control(req):
     wh = [cfm[0]]
     t = [0]
     if cfm[0] == 1 or cfh[0] == 1:
+        wm = cfm[1]
+        wh = cfm[1]
         print("Destination is not reachable without collision")
         return {'wm': wm, 'wh': wh, 't': t}
     else:

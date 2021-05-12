@@ -37,9 +37,9 @@ def setpoint_client():
     joint_pos, targetFK = IK_Z_tip(entrance,target)
     joint_pos = np.array(joint_pos,dtype='float64')
     if joint_pos[3] < -0.6:
-        joint_pos[3] = -0.5 
+        joint_pos[3] = -0.4 
     elif joint_pos[3] > 0.6:
-        joint_pos[3] = 0.5
+        joint_pos[3] = 0.4
     print(joint_pos)
     print("Moving the robot to the desired position")
     try:
@@ -55,10 +55,11 @@ def usage():
 if __name__ == "__main__":
     wm, wh, t = setpoint_client()
     t = np.array(t)
-    if t.size > 2: 
-        plt.plot(t, wm, 'r',t,wh,'b')
-        plt.ylabel('Collision factors')
+    if t.size > 2:
+        plt.plot(t, wm, 'r', t, wh,'b')
+        plt.ylabel('Collision factor')
         plt.xlabel('time')
+        plt.legend(["MRI collision factor", "Head collision factor"], loc ="upper right")
         plt.show()
     else:
         print("The collison factors are")

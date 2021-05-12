@@ -34,7 +34,14 @@ print("The T-Zframe to treatment frame feed back")
 print(A)
 print("The T-Zframe to RCM frame feed back")
 print(B)
-D,E = kine.IK_Z_tip(A[:,3],(A[:,3]-np.matrix([4,5,8,0]).T))
+if mode == 1:
+  x = float(input("Input desired target x position in Zframe in mm\n"))
+  y = float(input("Input desired target y position in Zframe in mm\n"))
+  z = float(input("Input desired target z position in Zframe in mm\n"))
+  D,E = kine.IK_Z_tip(A[:,3],np.matrix([x,y,z,1]).T)
+else:
+  D,E = kine.IK_Z_tip(A[:,3],(A[:,3]-np.matrix([4,5,8,0]).T))
+
 print("The joint settings for treatment with both entrance point and target point known")
 print(D)
 print("The T-Zframe to treatment frame for treatment with both entrance point and target point known")
