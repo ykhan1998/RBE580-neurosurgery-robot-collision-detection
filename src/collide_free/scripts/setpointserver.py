@@ -37,11 +37,11 @@ def set_point_control(req):
     cfm = MRI_collide_detection(joint_pos)
     cfh = Head_collide_detection(joint_pos)
     wm = [cfm[0]]
-    wh = [cfm[0]]
+    wh = [cfh[0]]
     t = [0]
     if cfm[0] == 1 or cfh[0] == 1:
         wm = cfm[1]
-        wh = cfm[1]
+        wh = cfh[1]
         print("Destination is not reachable without collision")
         return {'wm': wm, 'wh': wh, 't': t}
     else:

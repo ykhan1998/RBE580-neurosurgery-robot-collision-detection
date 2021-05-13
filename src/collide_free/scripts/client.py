@@ -37,9 +37,9 @@ def setpoint_client():
     joint_pos, targetFK = IK_Z_tip(entrance,target)
     joint_pos = np.array(joint_pos,dtype='float64')
     if joint_pos[3] < -0.6:
-        joint_pos[3] = -0.4 
+        joint_pos[3] = -0.59 
     elif joint_pos[3] > 0.6:
-        joint_pos[3] = 0.4
+        joint_pos[3] = 0.59
     print(joint_pos)
     print("Moving the robot to the desired position")
     try:
